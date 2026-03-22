@@ -53,22 +53,53 @@ flowchart LR
 
 ---
 
-## 📊 Machine Learning Pipeline
+## 📊 Step-by-Step Project Flow
 
-### 🔹 Data Processing
-- Encoding categorical variables
-- Feature transformation
-- Scaling
+### 1. Problem Framing and Success Criteria
+The project started with translating the business question into a machine learning task: predict whether a customer will subscribe to a term deposit. The original benchmark was to exceed 81% accuracy while still producing a practically useful model for business decision-making.
 
-### 🔹 Modeling
+### 2. Exploratory Data Analysis
+The dataset was examined to understand feature distributions, class balance, and campaign behavior. This stage helped identify:
+- dominant job categories and customer demographics
+- strong imbalance in the target variable
+- campaign timing patterns by month
+- opportunities to derive business insight from both customer and contact features
+
+### 3. Data Preprocessing
+The raw data was prepared for modeling through a structured preprocessing workflow. This included:
+- separating predictors from the target
+- transforming categorical features into machine-readable form
+- scaling numeric variables
+- preparing a reusable preprocessing object for deployment
+- handling class imbalance through resampling so the model could better learn the minority subscription class
+
+### 4. Model Development and Comparison
+Multiple classification algorithms were evaluated to determine the best-performing approach. The experimentation included:
 - Logistic Regression
+- K-Nearest Neighbors
 - Decision Tree
 - Random Forest
-- XGBoost (final model)
+- XGBoost
 
-### 🔹 Optimization
-- Threshold tuning
-- Precision-Recall balancing
+This comparison stage demonstrates a thoughtful modeling process rather than jumping directly to a single algorithm.
+
+### 5. Hyperparameter Tuning
+The stronger candidate models were tuned to improve generalization and business usefulness. Cross-validation and parameter search were used to refine performance.
+
+### 6. Threshold Optimization
+Instead of stopping at the default decision threshold, the project explicitly optimized the classification threshold using F1-score. This is important because the business problem involves balancing false positives and false negatives, not just maximizing raw accuracy.
+
+### 7. Customer Segmentation with Clustering
+The work extended beyond prediction into segmentation. Customers who subscribed were grouped into clusters to identify meaningful business segments. This makes the solution more actionable for marketing teams by highlighting which customer profiles are most promising.
+
+### 8. Model Packaging and Deployment
+The trained artifacts were serialized and prepared for serving. The repository includes:
+- a Flask backend API for inference
+- a Streamlit frontend for interactive prediction
+- Dockerfiles for containerized deployment
+- model and preprocessing artifacts for reproducible inference
+
+This shows the project was taken beyond notebook experimentation into deployable application form.
 
 ---
 
