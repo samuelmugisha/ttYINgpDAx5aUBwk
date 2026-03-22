@@ -102,6 +102,35 @@ flowchart TD
 ```
 
 ---
+## Repository Structure
+
+```text
+.
+├── backend_files/
+│   ├── app.py
+│   ├── Dockerfile
+│   ├── final_subscription_model.joblib
+│   ├── final_subscription_model.json
+│   ├── preprocessor.joblib
+│   └── requirements.txt
+├── data/
+├── frontend_files/
+│   ├── app.py
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   └── note
+├── models/
+│   └── XGBClassifier_best_model_threshold.joblib
+├── notebooks/
+│   ├── Clustering.ipynb
+│   ├── Deployment.ipynb
+│   ├── EDA.ipynb
+│   ├── Modelling.ipynb
+│   └── Preprocessing.ipynb
+└── README.md
+```
+
+---
 
 ## 🛠️ Tech Stack
 
