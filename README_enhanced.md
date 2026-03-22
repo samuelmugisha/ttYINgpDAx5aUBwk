@@ -104,7 +104,7 @@ This shows the project was taken beyond notebook experimentation into deployable
 ---
 
 ## 📈 Model Performance
-#Best model: XGBoost
+**Best model: XGBoost**
 | Metric     | Score |
 |-----------|------|
 | Accuracy  | 0.89 |
