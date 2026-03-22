@@ -23,9 +23,13 @@ This project demonstrates:
 
 ## 🧠 Problem Statement
 
-Banks need to optimize marketing campaigns by targeting customers most likely to subscribe to term deposits.
+Banks spend significant time and resources contacting customers during marketing campaigns. A poor targeting strategy increases operational cost, wastes call-center effort, and lowers campaign efficiency.
 
-> Goal: Improve conversion rates and reduce unnecessary outreach.
+This project addresses that challenge by building a classification system that predicts subscription likelihood before outreach decisions are made. The end goal is to help business teams:
+- target customers more effectively
+- improve campaign conversion rates
+- reduce wasted outreach
+- understand the attributes associated with stronger purchase intent
 
 ---
 
