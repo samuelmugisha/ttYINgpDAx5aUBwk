@@ -15,9 +15,11 @@
 An end-to-end machine learning project that predicts whether a customer will subscribe to a term deposit.
 
 This project demonstrates:
-- Full ML lifecycle (EDA → Modeling → Deployment)
-- Business-focused decision making
+- Full production-ready ML lifecycle (EDA → Modeling → Deployment)
+- Business-focused decision making: Translating business problems into data solutions 
 - Real-world deployment with API + UI
+- Optimize models beyond accuracy
+- Deploy ML solutions with real interfaces 
 
 ---
 
@@ -176,18 +178,6 @@ streamlit run app.py
 
 ---
 
-## 🎯 For Recruiters & Hiring Managers
-
-This project demonstrates my ability to:
-
-✔ Build production-ready ML systems  
-✔ Translate business problems into data solutions  
-✔ Optimize models beyond accuracy  
-✔ Deploy ML solutions with real interfaces  
-
-I focus on delivering **impact, not just models**.
-
----
 
 ## ⭐ Final Note
 
