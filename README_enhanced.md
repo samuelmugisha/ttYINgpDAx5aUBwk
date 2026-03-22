@@ -176,7 +176,18 @@ flowchart TD
 - Docker
 
 ---
+## How to Review This Project
 
+For a quick technical review, the best order is:
+
+1. `notebooks/EDA.ipynb` – understand the business problem and data landscape
+2. `notebooks/Preprocessing.ipynb` – review data preparation and imbalance handling
+3. `notebooks/Modelling.ipynb` – see model comparison, tuning, and final performance
+4. `notebooks/Clustering.ipynb` – examine customer segmentation work
+5. `notebooks/Deployment.ipynb` – review model packaging
+6. `backend_files/` and `frontend_files/` – inspect deployable application components
+
+---
 ## 🚀 How to Run
 
 ```bash
