@@ -10,7 +10,9 @@
 
 ---
 <center><img src="images/Customer_Subscription.png"></center>
+
 ---
+
 ## 📌 Overview
 
 An end-to-end machine learning project that predicts whether a customer will subscribe to a term deposit.
