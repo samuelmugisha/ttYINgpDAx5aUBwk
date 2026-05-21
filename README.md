@@ -223,7 +223,5 @@ streamlit run app.py
 
 ---
 
-
-## ⭐ Final Note
-
-If you're looking for someone who can own the full ML lifecycle — from data exploration to deployment — this project reflects exactly how I work.
+## 👤 Author 
+[Samuel Mugisha D.C | ML Engineer | AI Engineer](https://www.linkedin.com/in/samuelmugishadc/)
